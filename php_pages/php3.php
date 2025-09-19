@@ -16,13 +16,14 @@ $alunos = [
     'nome' => 'Carlos',
     'idade' => 30,
     'notaFinal' => 6.9
-    ],
+    ]
+];
 // ... (outros alunos)
 
+    array_push($alunos,
     ['nome' => 'Juca', 
     'idade' => 29,
     'notaFinal' => 9.5
-
     ],
 
     ['nome' => 'Paulo', 
@@ -69,8 +70,7 @@ $alunos = [
     'idade' => 16, 
     'notaFinal' => 10.0
     ]
-];
-
+);
 
 $totalNotas = 0;
 foreach ($alunos as $aluno) {

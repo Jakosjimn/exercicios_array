@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* preto suave */
+    color: #E0E0E0; /* cinza claro */
+    line-height: 1.6;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #1E1B29; 
+    padding: 30px 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 2px rgba(98, 0, 234, 0.7); 
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #BB86FC; 
+    text-shadow: 0 0 10px #BB86FC;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 18px;
+    color: #9B59B6;
+    border-bottom: 3px solid #8E44AD;
+    padding-bottom: 8px;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 25px;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #2C2A3A; /* roxo escuro */
+    padding: 14px 18px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    font-size: 1.15rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+ul li:hover {
+    background-color: #4B367C; /* roxo vibrante */
+    cursor: default;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #CCCCCC;
+}
+
+/* Links */
+a {
+    color: #BB86FC;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #EADDFF; /* roxo claro quase branco */
+    text-decoration: underline;
+}
+
+/* Botões */
+input[type="submit"] {
+    background-color: #7F39FB; /* roxo forte */
+    color: #FFF;
+    border: none;
+    padding: 13px 28px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 15px #7F39FB;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 15px auto 0 auto;
+    display: block;
+    max-width: 250px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #9A6BFF;
+    box-shadow: 0 0 25px #9A6BFF;
+}
+
+/* Destaques para números e notas */
+.numero, .nota {
+    font-weight: 700;
+    color: #BB86FC;
+    font-size: 1.2rem;
+}
+
+/* Espaço entre linhas em listas com múltiplas linhas */
+li br {
+    line-height: 1.4;
+}
+
+/* Responsividade simples */
+@media (max-width: 480px) {
+    body {
+        padding: 15px 10px;
+    }
+    .container {
+        padding: 20px 25px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    ul li {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+    input[type="submit"] {
+        max-width: 100%;
+        padding: 12px 0;
+    }
+}
