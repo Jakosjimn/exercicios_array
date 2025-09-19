@@ -1,5 +1,24 @@
 <?php
 $alunos = [
+    [
+    'nome' => 'Ana', 
+    'idade' => 22, 
+    'notaFinal' => 8.4
+    ],
+
+    [
+    'nome' => 'Bia', 
+    'idade' => 19,
+    'notaFinal' => 7.6
+    ],
+
+    [
+    'nome' => 'Carlos',
+    'idade' => 30,
+    'notaFinal' => 6.9
+    ],
+// ... (outros alunos)
+
     ['nome' => 'Juca', 
     'idade' => 29,
     'notaFinal' => 9.5
